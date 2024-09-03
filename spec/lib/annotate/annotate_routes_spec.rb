@@ -20,7 +20,9 @@ describe AnnotateRoutes do
     "# frozen_string_literal: true\n# encoding: utf-8",
     '# frozen_string_literal: true',
     '#frozen_string_literal: false',
-    '# -*- frozen_string_literal : true -*-'
+    '# -*- frozen_string_literal : true -*-',
+    '#typed: false',
+    '# typed: true'
   ].freeze unless const_defined?(:MAGIC_COMMENTS)
 
   let :stubs do

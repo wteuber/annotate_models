@@ -768,6 +768,7 @@ Style/StderrPuts:
 Style/StringConcatenation:
   Exclude:
     - 'lib/annotate/annotate_models.rb'
+    - 'lib/annotate/annotate_routes/helpers.rb'
 
 # Offense count: 57
 # Cop supports --auto-correct.
@@ -817,4 +818,4 @@ Style/TrailingCommaInArrayLiteral:
 # Configuration parameters: AutoCorrect, AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
 # URISchemes: http, https
 Layout/LineLength:
-  Max: 264
+  Max: 245
